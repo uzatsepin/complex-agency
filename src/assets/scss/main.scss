@@ -1,0 +1,37 @@
+@import '_reset.scss';
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  background: #161617;
+  color: #fff;
+}
+
+*::-webkit-scrollbar {
+  width: 4px;
+  border-radius: 4px;
+  margin: 15px;
+  background: transparent;
+}
+
+*::-webkit-scrollbar-track {
+  background: #161617;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background: #161617;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #2eecc5;
+  border-radius: 4px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #161617;
+}
+
+*::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
